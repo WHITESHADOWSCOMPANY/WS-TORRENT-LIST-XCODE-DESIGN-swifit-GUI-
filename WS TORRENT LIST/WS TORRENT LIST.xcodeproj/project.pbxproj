@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE5C3C7B2379AC590097E450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C3C7A2379AC590097E450 /* AppDelegate.swift */; };
+		FE5C3C7D2379AC590097E450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C3C7C2379AC590097E450 /* ViewController.swift */; };
+		FE5C3C7F2379AC5A0097E450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5C3C7E2379AC5A0097E450 /* Assets.xcassets */; };
+		FE5C3C822379AC5A0097E450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5C3C802379AC5A0097E450 /* Main.storyboard */; };
+		FE5C3C8E2379AC5A0097E450 /* WS_TORRENT_LISTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C3C8D2379AC5A0097E450 /* WS_TORRENT_LISTTests.swift */; };
+		FE5C3C992379AC5A0097E450 /* WS_TORRENT_LISTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C3C982379AC5A0097E450 /* WS_TORRENT_LISTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5C3C8A2379AC5A0097E450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5C3C6F2379AC590097E450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5C3C762379AC590097E450;
+			remoteInfo = "WS TORRENT LIST";
+		};
+		FE5C3C952379AC5A0097E450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5C3C6F2379AC590097E450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5C3C762379AC590097E450;
+			remoteInfo = "WS TORRENT LIST";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE5C3C772379AC590097E450 /* WS TORRENT LIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WS TORRENT LIST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5C3C7A2379AC590097E450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE5C3C7C2379AC590097E450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE5C3C7E2379AC5A0097E450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE5C3C812379AC5A0097E450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE5C3C832379AC5A0097E450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5C3C842379AC5A0097E450 /* WS_TORRENT_LIST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WS_TORRENT_LIST.entitlements; sourceTree = "<group>"; };
+		FE5C3C892379AC5A0097E450 /* WS TORRENT LISTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WS TORRENT LISTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5C3C8D2379AC5A0097E450 /* WS_TORRENT_LISTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WS_TORRENT_LISTTests.swift; sourceTree = "<group>"; };
+		FE5C3C8F2379AC5A0097E450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5C3C942379AC5A0097E450 /* WS TORRENT LISTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WS TORRENT LISTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5C3C982379AC5A0097E450 /* WS_TORRENT_LISTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WS_TORRENT_LISTUITests.swift; sourceTree = "<group>"; };
+		FE5C3C9A2379AC5A0097E450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5C3C742379AC590097E450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C3C862379AC5A0097E450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C3C912379AC5A0097E450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5C3C6E2379AC590097E450 = {
+			isa = PBXGroup;
+			children = (
+				FE5C3C792379AC590097E450 /* WS TORRENT LIST */,
+				FE5C3C8C2379AC5A0097E450 /* WS TORRENT LISTTests */,
+				FE5C3C972379AC5A0097E450 /* WS TORRENT LISTUITests */,
+				FE5C3C782379AC590097E450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5C3C782379AC590097E450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5C3C772379AC590097E450 /* WS TORRENT LIST.app */,
+				FE5C3C892379AC5A0097E450 /* WS TORRENT LISTTests.xctest */,
+				FE5C3C942379AC5A0097E450 /* WS TORRENT LISTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5C3C792379AC590097E450 /* WS TORRENT LIST */ = {
+			isa = PBXGroup;
+			children = (
+				FE5C3C7A2379AC590097E450 /* AppDelegate.swift */,
+				FE5C3C7C2379AC590097E450 /* ViewController.swift */,
+				FE5C3C7E2379AC5A0097E450 /* Assets.xcassets */,
+				FE5C3C802379AC5A0097E450 /* Main.storyboard */,
+				FE5C3C832379AC5A0097E450 /* Info.plist */,
+				FE5C3C842379AC5A0097E450 /* WS_TORRENT_LIST.entitlements */,
+			);
+			path = "WS TORRENT LIST";
+			sourceTree = "<group>";
+		};
+		FE5C3C8C2379AC5A0097E450 /* WS TORRENT LISTTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5C3C8D2379AC5A0097E450 /* WS_TORRENT_LISTTests.swift */,
+				FE5C3C8F2379AC5A0097E450 /* Info.plist */,
+			);
+			path = "WS TORRENT LISTTests";
+			sourceTree = "<group>";
+		};
+		FE5C3C972379AC5A0097E450 /* WS TORRENT LISTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5C3C982379AC5A0097E450 /* WS_TORRENT_LISTUITests.swift */,
+				FE5C3C9A2379AC5A0097E450 /* Info.plist */,
+			);
+			path = "WS TORRENT LISTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5C3C762379AC590097E450 /* WS TORRENT LIST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5C3C9D2379AC5A0097E450 /* Build configuration list for PBXNativeTarget "WS TORRENT LIST" */;
+			buildPhases = (
+				FE5C3C732379AC590097E450 /* Sources */,
+				FE5C3C742379AC590097E450 /* Frameworks */,
+				FE5C3C752379AC590097E450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WS TORRENT LIST";
+			productName = "WS TORRENT LIST";
+			productReference = FE5C3C772379AC590097E450 /* WS TORRENT LIST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE5C3C882379AC5A0097E450 /* WS TORRENT LISTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5C3CA02379AC5A0097E450 /* Build configuration list for PBXNativeTarget "WS TORRENT LISTTests" */;
+			buildPhases = (
+				FE5C3C852379AC5A0097E450 /* Sources */,
+				FE5C3C862379AC5A0097E450 /* Frameworks */,
+				FE5C3C872379AC5A0097E450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5C3C8B2379AC5A0097E450 /* PBXTargetDependency */,
+			);
+			name = "WS TORRENT LISTTests";
+			productName = "WS TORRENT LISTTests";
+			productReference = FE5C3C892379AC5A0097E450 /* WS TORRENT LISTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE5C3C932379AC5A0097E450 /* WS TORRENT LISTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5C3CA32379AC5A0097E450 /* Build configuration list for PBXNativeTarget "WS TORRENT LISTUITests" */;
+			buildPhases = (
+				FE5C3C902379AC5A0097E450 /* Sources */,
+				FE5C3C912379AC5A0097E450 /* Frameworks */,
+				FE5C3C922379AC5A0097E450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5C3C962379AC5A0097E450 /* PBXTargetDependency */,
+			);
+			name = "WS TORRENT LISTUITests";
+			productName = "WS TORRENT LISTUITests";
+			productReference = FE5C3C942379AC5A0097E450 /* WS TORRENT LISTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5C3C6F2379AC590097E450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Mário Daniel Doskočil";
+				TargetAttributes = {
+					FE5C3C762379AC590097E450 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					FE5C3C882379AC5A0097E450 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = FE5C3C762379AC590097E450;
+					};
+					FE5C3C932379AC5A0097E450 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = FE5C3C762379AC590097E450;
+					};
+				};
+			};
+			buildConfigurationList = FE5C3C722379AC590097E450 /* Build configuration list for PBXProject "WS TORRENT LIST" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5C3C6E2379AC590097E450;
+			productRefGroup = FE5C3C782379AC590097E450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5C3C762379AC590097E450 /* WS TORRENT LIST */,
+				FE5C3C882379AC5A0097E450 /* WS TORRENT LISTTests */,
+				FE5C3C932379AC5A0097E450 /* WS TORRENT LISTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5C3C752379AC590097E450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5C3C7F2379AC5A0097E450 /* Assets.xcassets in Resources */,
+				FE5C3C822379AC5A0097E450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C3C872379AC5A0097E450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C3C922379AC5A0097E450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5C3C732379AC590097E450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5C3C7D2379AC590097E450 /* ViewController.swift in Sources */,
+				FE5C3C7B2379AC590097E450 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C3C852379AC5A0097E450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5C3C8E2379AC5A0097E450 /* WS_TORRENT_LISTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5C3C902379AC5A0097E450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5C3C992379AC5A0097E450 /* WS_TORRENT_LISTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5C3C8B2379AC5A0097E450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5C3C762379AC590097E450 /* WS TORRENT LIST */;
+			targetProxy = FE5C3C8A2379AC5A0097E450 /* PBXContainerItemProxy */;
+		};
+		FE5C3C962379AC5A0097E450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5C3C762379AC590097E450 /* WS TORRENT LIST */;
+			targetProxy = FE5C3C952379AC5A0097E450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE5C3C802379AC5A0097E450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5C3C812379AC5A0097E450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5C3C9B2379AC5A0097E450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE5C3C9C2379AC5A0097E450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE5C3C9E2379AC5A0097E450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WS TORRENT LIST/WS_TORRENT_LIST.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "WS TORRENT LIST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.WS-TORRENT-LIST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE5C3C9F2379AC5A0097E450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WS TORRENT LIST/WS_TORRENT_LIST.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "WS TORRENT LIST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.WS-TORRENT-LIST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FE5C3CA12379AC5A0097E450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "WS TORRENT LISTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.WS-TORRENT-LISTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WS TORRENT LIST.app/Contents/MacOS/WS TORRENT LIST";
+			};
+			name = Debug;
+		};
+		FE5C3CA22379AC5A0097E450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "WS TORRENT LISTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.WS-TORRENT-LISTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WS TORRENT LIST.app/Contents/MacOS/WS TORRENT LIST";
+			};
+			name = Release;
+		};
+		FE5C3CA42379AC5A0097E450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "WS TORRENT LISTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.WS-TORRENT-LISTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WS TORRENT LIST";
+			};
+			name = Debug;
+		};
+		FE5C3CA52379AC5A0097E450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "WS TORRENT LISTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.WS-TORRENT-LISTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WS TORRENT LIST";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5C3C722379AC590097E450 /* Build configuration list for PBXProject "WS TORRENT LIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5C3C9B2379AC5A0097E450 /* Debug */,
+				FE5C3C9C2379AC5A0097E450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5C3C9D2379AC5A0097E450 /* Build configuration list for PBXNativeTarget "WS TORRENT LIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5C3C9E2379AC5A0097E450 /* Debug */,
+				FE5C3C9F2379AC5A0097E450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5C3CA02379AC5A0097E450 /* Build configuration list for PBXNativeTarget "WS TORRENT LISTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5C3CA12379AC5A0097E450 /* Debug */,
+				FE5C3CA22379AC5A0097E450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5C3CA32379AC5A0097E450 /* Build configuration list for PBXNativeTarget "WS TORRENT LISTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5C3CA42379AC5A0097E450 /* Debug */,
+				FE5C3CA52379AC5A0097E450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5C3C6F2379AC590097E450 /* Project object */;
+}
